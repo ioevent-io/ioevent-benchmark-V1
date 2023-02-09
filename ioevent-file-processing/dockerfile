@@ -1,0 +1,9 @@
+FROM openjdk:11
+
+WORKDIR /app
+COPY ./target/ioevent-file-processing-0.0.1-SNAPSHOT.jar /app
+COPY ./src/main/resources/assests/csv/products100k.csv /app
+
+EXPOSE 8080
+
+CMD ["java", "-jar", "ioevent-file-processing-0.0.1-SNAPSHOT.jar"]
