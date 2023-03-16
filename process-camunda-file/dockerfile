@@ -1,0 +1,10 @@
+FROM openjdk:11
+
+WORKDIR /app
+COPY ./target/file-processing-camunda-1.0.0-SNAPSHOT.jar /app
+COPY ./src/main/resources/assests/csv/products10k.csv /app
+
+
+EXPOSE 8080
+
+CMD ["java", "-jar", "file-processing-camunda-1.0.0-SNAPSHOT.jar"]

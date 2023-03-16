@@ -101,7 +101,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>2.6.4</version>
 				<configuration>
-					<mainClass>io.ioevent.samples.Application</mainClass>
+					<mainClass>io.camunda.samples.Application</mainClass>
 					<layout>JAR</layout>
 				</configuration>
 				<executions>
