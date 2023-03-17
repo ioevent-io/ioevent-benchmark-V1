@@ -9,4 +9,4 @@ This application used to process a csv file and save its valid data into the dat
 # Following is the Bpmn implemented using IO Event
 
 
-![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-file-processing/ioevent-file-processing-exemple.jpg)
+![alt text](https://raw.githubusercontent.com/ioevent-io/ioevent-benchmark-V1/main/ioevent-file-processing/ioevent-file-processing.jpg)
